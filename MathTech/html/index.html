@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <title>MathTech</title>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <h2><a href="../html/index.html">MathTech</a></h2>
+
+            <button  class="menu-sanduiche" onclick="toggleMenu()">
+                <img src="../img/menu.svg" alt="MENU">
+            </button>
+                
+        </div>
+
+        <menu>
+            <ul class="menu" id="menu">
+                <li class="item1"><a href="../html/index.html"><h4>Página inicial</h4></a></li>
+                <li class="item2"><a href="../html/equacao1.html"><h4>Equação de 1° Grau</h4></a></li>
+                <li class="item3"><a href="../html/equacao2.html"><h4>Equação de 2° Grau</h4></a></li>
+                <li class="item4"><a href="../html/quemSomos.html"><h4>Quem somos?</h4></a></li>
+            </ul>
+        </menu>
+
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('menu');
+                if (menu.style.display === 'flex') {
+                    menu.style.display = 'none';
+                } else {
+                    menu.style.display = 'flex';
+                }
+            }
+        </script>
+       
+    </nav>
+            
+
+
+    <main>
+        <div class="texto">
+            <h2>Precisa de ajuda com equação?</h2><br>
+            <h1>Conheça o <br>MathTech.</h1><br>
+            <h2>Seu cálculo rápido e fácil. </h2>
+        </div>
+        <div class="centro">
+            <button ><a href="../html/vejaMais.html">Veja mais!</a></button>
+        </div>
+    </main>
+
+
+
+    <footer>
+        
+        
+        <h4>Conheça nossos orientadores:</h4>
+
+        <div class="alinhar">
+        <div class="prof"> 
+            <img src="../img/edson.jpeg" alt="Edson"> <br>
+            <div class="centro">
+                <h4>Edson de Oliveira</h4>
+            </div>
+        </div>
+        <div class="prof"> 
+            <img src="../img/fatima.jpeg" alt="Fatima"> <br>
+            <div class="centro">
+                <h4>Fatima Baptista</h4>
+            </div>
+        </div>
+        <div class="prof">
+            <img src="../img/guilherme.jpeg" alt="Guilherme"> <br>
+            <div class="centro">
+                <h4>Guilherme Santos</h4>
+            </div>
+        </div>
+        <div class="prof">
+            <img src="../img/otto.jpeg" alt="Otto"> <br>
+            <div class="centro">
+                <h4>Otoniel Nunes</h4>
+            </div>
+        </div>
+        <div class="prof">
+            <img src="../img/quiteria.png" alt="Quiteria"> <br>
+            <div class="centro">
+                <h4>Quitéria Danno</h4>
+            </div>
+        </div>
+        </div> 
+          <br> <br>   
+          <div class="centro">
+            <p>Todos os direitos reservados MathTech. </p>
+        </div>
+     
+
+    </footer>
+</body>
+</html>
