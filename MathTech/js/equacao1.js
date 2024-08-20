@@ -37,11 +37,3 @@ function calculo(_e){
     document.getElementById('coeficienteC').textContent = num3c;
 }
 
-function toggleMenu() {
-    var menu = document.getElementById('menu');
-    if (menu.style.display === 'flex') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'flex';
-    }
-}

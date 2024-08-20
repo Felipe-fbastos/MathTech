@@ -17,8 +17,9 @@ function calculo(e){
     let delta = Math.pow(num2b,2)- 4*num1a*num3c; /*Aqui é forma de baskara, usei a função Math.pow para levar o num2b ao quadarado. 
     Math.pow(n2b,2) dentro desse parenteses inserimos primeiro a nossa variavel, que no caso é num2b e depois quanto queremos elevar esse número.*/
    
-    
+    if{num1a == NaN || num2b == NaN || num3c == NaN}{
 
+    }
     if(delta > 0){ //Se o delta foi maior que 0 a equação possui duas raizes reais e distintas
         let raiz1 = ( (-num2b + Math.sqrt(delta))/(2*num1a) );//Math.sqrt() é um método do objeto Math usado para calcular a raiz quadrada de um número.
         let raiz2 = ( (-num2b - Math.sqrt(delta))/(2*num1a) );
@@ -66,11 +67,3 @@ function calculo(e){
        
 }
 
-function toggleMenu() {
-    let menu = document.getElementById('menu');
-    if (menu.style.display === 'flex') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'flex';
-    }
-}

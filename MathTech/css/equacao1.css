@@ -30,65 +30,57 @@ nav h2:hover{
 }
 
 /* =============  MENU SANDUÍCHE  =============   */
-.menu-sanduiche {
-    cursor: pointer;
+header{
+    background: #2474DB;
+    
+}
+
+.nav-bar{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 36px ;
-    height: 36px ;
-    background-color: transparent;
-    border: none;
-    margin: 6px 12px 6px 12px;   
+    justify-content: space-between;
+    padding: 1.2rem 6rem;
+    
 }
 
-.menu-sanduiche div {
-    background-color: white;
-    height: 3px;
-    width: 25px;
-}
 
-.menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: none;
-    flex-direction: column;
-    background-color: #174888;
+.logo{
+    display: flex;
     align-items: center;
-    width: auto;
-    position: fixed;
-   
+    font-size: 150%;
 }
 
-menu{
+.logo h1{
+    color: #fff;
+}
+
+.nav-list{
     display: flex;
-    justify-content: flex-end;
-    position: static;
+    align-items: center;
+    
 }
 
-.menu-ativo {
+.nav-list ul{
     display: flex;
+    justify-content: center;
+    list-style: none;
+
 }
 
-.item2, .item3 {
-    padding: 24px 48px 24px 48px;
-    text-align: center;
-}
-.item1, .item4 {
-    padding: 24px 71px 24px 71px;
-    text-align: center;
+.nav-item{
+    margin: 0 45px;
 }
 
-.menu li:hover{
-    margin: 0;
-    background-color:#2474db;
-}
-
-.menu li a {
-    color: white;
+.nav-link{
     text-decoration: none;
-    display: block;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1.15rem;
+
+}
+
+.nav-link:hover{
+    background-color: #164683;
     
 }
 
